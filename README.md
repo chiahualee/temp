@@ -17,7 +17,7 @@
 ## 報告目的  
    
     
-    本學期計畫目的在於以團隊的方式體驗整個大數據分析的流程，組員以課堂所學習到的機器學習演
+    本學期計畫目的在於以團隊的方式體驗大數據分析的流程，組員以課堂所學習到的機器學習演
     算法為基礎，從網路上搜索感興趣的資料集，並利用現今最流行的大數據運算框架Spark以及內建的
     MLlib進行巨量資料運算，去實作分類或分群的預測。
 
@@ -26,11 +26,18 @@
 
     本組實際參與了於知名數據競賽平台kaggle上的一個已結案的手機廣告點擊率比賽(Click-Through 
     Rate Prediction)，在經過特徵值挑選、各種模型的試驗、參數調整後，最終所選擇的分類器是隨
-    機森林，我們擷取的是它善於處理高維度的特性，以及不會過度擬合(overfitting)的兩大優點來進
-    行建模。在預測階段，於本機端執行交叉驗證(cross-validation)後實驗的最佳結果AUC為0.68，而
+    機森林，我們擷取的是它善於處理高維度的特性，以及不會過度擬合的兩大優點來進
+    行建模。在預測階段，於本機端執行交叉驗證後實驗的最佳結果AUC為0.68，而
     在kaggle平台上經test-data驗證後的準確率，本組的機器學習模型所獲得的最低損失函數log-loss
-    的數值則約為0.76。
+    的數值則為0.76。
+    
+## 預測最佳成果
+####Area Under Curve
 
+![image](https://github.com/chiahualee/temp/blob/master/AUC.png)
+####submit到kaggle所得到log loss的值 
+
+![image](https://github.com/chiahualee/temp/blob/master/losslog.png)
 
 
 
