@@ -32,10 +32,10 @@
     的數值則為0.76。
     
 ## 預測最佳成果
-####Area Under Curve
+#### * Area Under Curve
 
 ![image](https://github.com/chiahualee/temp/blob/master/AUC.png)
-####submit到kaggle所得到log loss的值 
+#### * 提交至kaggle所得到log loss的值 
 
 ![image](https://github.com/chiahualee/temp/blob/master/losslog.png)
 
